@@ -1944,16 +1944,7 @@ nav a:hover {
 .section-gap {
   padding: 120px 0;
 }
-@media (min-width: 991px) {
-  #service{
-    margin-top: 300px !important;
-  }
-}
-@media (min-width: 1140px) {
-  #service{
-    margin-top: 500px !important;
-  }
-}
+
 .section-title {
   padding-bottom: 30px;
 }
@@ -2710,9 +2701,16 @@ p {
     max-height: 75%;
   }
 }
-@media (max-width: 480px){
+
+@media (max-width: 768px){
   .item_img {
-    max-width: 85%;
-    max-height: 85%;
+    max-width: 75%;
+    max-height: 75%;
+  }
+}
+@media (min-width: 769px){
+  .item_img{
+    max-width: 90%;
+    max-height: 90%;
   }
 }
