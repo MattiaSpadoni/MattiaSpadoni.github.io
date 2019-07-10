@@ -2726,3 +2726,7 @@ p {
     height: 300px !important;
   }
 }
+@media (max-width: 575px) {
+  #container_1 {
+    height: 300px !important;
+  }
